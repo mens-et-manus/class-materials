@@ -12,4 +12,12 @@ void loop() {
   delay(100);
   int value = digitalRead(5);
   Serial.println(value);
+
+  //pseudo-code
+  /*  
+   *   if(value > threshold):
+   *      digitalWrite(47,HIGH);
+   *   else:
+   *      digitalWrite(47,LOW);
+  */
 }
